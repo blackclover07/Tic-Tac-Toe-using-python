@@ -6,17 +6,17 @@ This is a simple implementation of the classic **Tic Tac Toe** game using Python
 
 ## 📋 Features
 
-* Turn-based play between user (`X`) and computer (`O`)
-* Board display after each move
-* Detects win conditions (rows, columns, diagonals)
-* Detects ties when the board is full
-* Random computer moves using Python's `random` module
+- Turn-based play between user (`X`) and computer (`O`)
+- Board display after each move
+- Detects win conditions (rows, columns, diagonals)
+- Detects ties when the board is full
+- Random computer moves using Python's `random` module
 
 ---
 
 ## 🛠 Requirements
 
-* Python 3.x
+- Python 3.x
 
 ---
 
@@ -32,7 +32,7 @@ This is a simple implementation of the classic **Tic Tac Toe** game using Python
 
    ```
    cd tic-tac-toe-python
-   python tictactoe.py
+   python Tic_Tac_Toe.py
    ```
 
 3. **Play the game** by entering a number (1–9) when prompted:
@@ -51,13 +51,13 @@ This is a simple implementation of the classic **Tic Tac Toe** game using Python
 
 ## 🧠 How It Works
 
-* The game board is a list of 9 elements representing each cell.
-* Players take turns: the human enters a position, the computer chooses a random empty spot.
-* After every move:
+- The game board is a list of 9 elements representing each cell.
+- Players take turns: the human enters a position, the computer chooses a random empty spot.
+- After every move:
 
-  * It checks if a player has won.
-  * It checks if the board is full (tie).
-  * If no win or tie, it switches the turn.
+  - It checks if a player has won.
+  - It checks if the board is full (tie).
+  - If no win or tie, it switches the turn.
 
 ---
 
@@ -86,10 +86,10 @@ The winner is X
 
 ## 🔍 To-Do (Optional Enhancements)
 
-* Improve computer logic with minimax algorithm (AI)
-* Add GUI using Tkinter or Pygame
-* Input validation enhancements
-* Play against another human
+- Improve computer logic with minimax algorithm (AI)
+- Add GUI using Tkinter or Pygame
+- Input validation enhancements
+- Play against another human
 
 ---
 
@@ -104,5 +104,3 @@ This project is free to use and modify for learning and personal use.
 Developed with ❤️ by SAGAR DEY
 
 ---
-
-
